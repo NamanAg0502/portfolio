@@ -269,6 +269,23 @@
     "@react-types/button" "^3.7.4"
     "@react-types/shared" "^3.19.0"
 
+"@nextui-org/card@^2.0.11":
+  version "2.0.11"
+  resolved "https://registry.yarnpkg.com/@nextui-org/card/-/card-2.0.11.tgz#645fe07983e2a629e830ba9aedd85693c423a19e"
+  integrity sha512-V/4cCuRfteMnCA7bBYUw7cQKZPNivSWpQgIHwCPbNVH1BkEcVdoq3IIa4FlFTHnWZGvjq6CTKBnFMVHOViO6cg==
+  dependencies:
+    "@nextui-org/react-utils" "2.0.6"
+    "@nextui-org/ripple" "2.0.11"
+    "@nextui-org/shared-utils" "2.0.2"
+    "@nextui-org/system" "2.0.5"
+    "@nextui-org/theme" "2.0.5"
+    "@nextui-org/use-aria-button" "2.0.3"
+    "@react-aria/button" "^3.8.1"
+    "@react-aria/focus" "^3.14.0"
+    "@react-aria/interactions" "^3.17.0"
+    "@react-aria/utils" "^3.19.0"
+    "@react-types/shared" "^3.19.0"
+
 "@nextui-org/code@2.0.7":
   version "2.0.7"
   resolved "https://registry.yarnpkg.com/@nextui-org/code/-/code-2.0.7.tgz#eda55be8097181c864165f0c20bda01a63103e44"
@@ -279,6 +296,17 @@
     "@nextui-org/system-rsc" "2.0.3"
     "@nextui-org/theme" "2.0.4"
 
+"@nextui-org/divider@^2.0.10":
+  version "2.0.10"
+  resolved "https://registry.yarnpkg.com/@nextui-org/divider/-/divider-2.0.10.tgz#362ddeb99e74acb50dfd26077314079ee31b0e74"
+  integrity sha512-5IuKtkDRX5jAVuxWyIP6BvuJuzUuyOL5V50siWqPgEqtt0O+iuDhSFuioDDWT4gv10CxvKfApm6Dx3+uFU99ZA==
+  dependencies:
+    "@nextui-org/react-rsc-utils" "2.0.6"
+    "@nextui-org/shared-utils" "2.0.2"
+    "@nextui-org/system-rsc" "2.0.3"
+    "@nextui-org/theme" "2.0.5"
+    "@react-types/shared" "^3.19.0"
+
 "@nextui-org/framer-transitions@2.0.5":
   version "2.0.5"
   resolved "https://registry.yarnpkg.com/@nextui-org/framer-transitions/-/framer-transitions-2.0.5.tgz#601660b05f8b5ee03d72fe8e1b1f38d49d6623e5"
@@ -286,6 +314,17 @@
   dependencies:
     "@nextui-org/shared-utils" "2.0.2"
     "@nextui-org/system" "2.0.5"
+
+"@nextui-org/image@^2.0.11":
+  version "2.0.11"
+  resolved "https://registry.yarnpkg.com/@nextui-org/image/-/image-2.0.11.tgz#f774cc481d0c6fa4ed9821ac4188761c6d917077"
+  integrity sha512-G8pRvcfOWPKdnLx3nqhDFT9N0VS2TrBZA97m9pFkmiD/cqGDc3mVv/s/sS/yg/qX1EFY9dNmP9hj+bQdZKvkHg==
+  dependencies:
+    "@nextui-org/react-utils" "2.0.6"
+    "@nextui-org/shared-utils" "2.0.2"
+    "@nextui-org/system" "2.0.5"
+    "@nextui-org/theme" "2.0.5"
+    "@nextui-org/use-image" "2.0.2"
 
 "@nextui-org/input@2.0.10":
   version "2.0.10"
@@ -357,6 +396,11 @@
   resolved "https://registry.yarnpkg.com/@nextui-org/react-rsc-utils/-/react-rsc-utils-2.0.5.tgz#c587bf0524a5de9e634f59eb352ffb055927c40b"
   integrity sha512-hYGZ6vgyF1QhatU1E3BhhOy/sOrw5D813lXD/bQ+YkSAS5eRhhWFgpka+PLiZGq8GWAyXKfsOuRucdoGSo4g1w==
 
+"@nextui-org/react-rsc-utils@2.0.6":
+  version "2.0.6"
+  resolved "https://registry.yarnpkg.com/@nextui-org/react-rsc-utils/-/react-rsc-utils-2.0.6.tgz#931aa1e66743e454b571efca986eecc4ba371de5"
+  integrity sha512-32hglPfvA77lFO1XbDBf8a/bVthRjFTWWsYAMGWFF4GKhl/WYBzVRaFmIQjimd6FOfLFhPvolWHEukH3kTlyyQ==
+
 "@nextui-org/react-utils@2.0.5":
   version "2.0.5"
   resolved "https://registry.yarnpkg.com/@nextui-org/react-utils/-/react-utils-2.0.5.tgz#87d90195d1bc2ed94a9e2d5d40fa96dc561bdf3e"
@@ -364,6 +408,24 @@
   dependencies:
     "@nextui-org/react-rsc-utils" "2.0.5"
     "@nextui-org/shared-utils" "2.0.2"
+
+"@nextui-org/react-utils@2.0.6":
+  version "2.0.6"
+  resolved "https://registry.yarnpkg.com/@nextui-org/react-utils/-/react-utils-2.0.6.tgz#b338a74082b1e849c7b63c173086f41f075e0ff4"
+  integrity sha512-9mRDJj1hNNdKTxt9idQc/OVI+3UzvSErRCjN2hfVVi2c5JrR5b0/Zpx7PV0PHy7yfGUn1hyvwK5ZTVkNhxISKQ==
+  dependencies:
+    "@nextui-org/react-rsc-utils" "2.0.6"
+    "@nextui-org/shared-utils" "2.0.2"
+
+"@nextui-org/ripple@2.0.11":
+  version "2.0.11"
+  resolved "https://registry.yarnpkg.com/@nextui-org/ripple/-/ripple-2.0.11.tgz#db2a02c2e9cc8d325d32cc6aaa5515ee2185e630"
+  integrity sha512-sAby00AtQZu8swzoVTPu+QKNXGgaFolhbSKjDIzyudZ2rJYQoSWhxeD6/HpbbaakeZgNJWbeXJRKlbFhDNAD5Q==
+  dependencies:
+    "@nextui-org/react-utils" "2.0.6"
+    "@nextui-org/shared-utils" "2.0.2"
+    "@nextui-org/system" "2.0.5"
+    "@nextui-org/theme" "2.0.5"
 
 "@nextui-org/ripple@2.0.9":
   version "2.0.9"
@@ -400,6 +462,16 @@
     "@nextui-org/use-clipboard" "2.0.2"
     "@react-aria/focus" "^3.14.0"
     "@react-aria/utils" "^3.19.0"
+
+"@nextui-org/spacer@^2.0.9":
+  version "2.0.9"
+  resolved "https://registry.yarnpkg.com/@nextui-org/spacer/-/spacer-2.0.9.tgz#53fb67baae7cc919db323b2281280417e4786846"
+  integrity sha512-AP0qkZp8hpHWGrisdSxPF3tOnlYMwcyWRJK1P59PQehWE831ukGk/wasY/pOZKdGdMR7EZJ804cOAdMlnfOQxw==
+  dependencies:
+    "@nextui-org/react-utils" "2.0.6"
+    "@nextui-org/shared-utils" "2.0.2"
+    "@nextui-org/system-rsc" "2.0.3"
+    "@nextui-org/theme" "2.0.5"
 
 "@nextui-org/spinner@2.0.7":
   version "2.0.7"
@@ -462,6 +534,23 @@
     tailwind-variants "^0.1.13"
     tailwindcss "^3.2.7"
 
+"@nextui-org/theme@2.0.5":
+  version "2.0.5"
+  resolved "https://registry.yarnpkg.com/@nextui-org/theme/-/theme-2.0.5.tgz#5446158e3bab58cdac56c66b3af0f5e233d2179e"
+  integrity sha512-4br6xRTYGbDCL8Vwm4CP0VqEXORROyQCmLSwNFaXr6s0vB5nX5tnJHqyDIvpq5Al7I2H8HMG2KOUHyhbaKOKFA==
+  dependencies:
+    color "^4.2.3"
+    color2k "^2.0.2"
+    deepmerge "4.3.1"
+    flat "^5.0.2"
+    lodash.foreach "^4.5.0"
+    lodash.get "^4.4.2"
+    lodash.kebabcase "^4.1.1"
+    lodash.mapkeys "^4.6.0"
+    lodash.omit "^4.5.0"
+    tailwind-variants "^0.1.13"
+    tailwindcss "^3.2.7"
+
 "@nextui-org/tooltip@2.0.10":
   version "2.0.10"
   resolved "https://registry.yarnpkg.com/@nextui-org/tooltip/-/tooltip-2.0.10.tgz#0db64390409087ea2b123fc0c6d1f4631fb87cb5"
@@ -507,6 +596,18 @@
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/@nextui-org/use-clipboard/-/use-clipboard-2.0.2.tgz#bfb30a39a0989281e8bf091402745e11d39e161a"
   integrity sha512-Ass+LJR/cWC48AeIUtsukzvA7Mf5bV7ikdNUvuLyrc9pdqr1fmw4aHCkQPQKSjLIHy85KuXDKqrqhVoVLivD4g==
+
+"@nextui-org/use-image@2.0.2":
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/@nextui-org/use-image/-/use-image-2.0.2.tgz#72e04b7143906ddef1ef7246933e563f40a94593"
+  integrity sha512-geCUHp2P/2und98/Ka12dyrw78D9F2qG1a8WN/iB0BQWwaEm8km8YH13zlV0GOFHCwlA5gsXqrUvzxPjfZytZQ==
+  dependencies:
+    "@nextui-org/use-safe-layout-effect" "2.0.2"
+
+"@nextui-org/use-safe-layout-effect@2.0.2":
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/@nextui-org/use-safe-layout-effect/-/use-safe-layout-effect-2.0.2.tgz#22be9e60fc1114979751b630ae27c159fc64a1db"
+  integrity sha512-HsFP2e+o2eSiQyAXdiicPBj6qj1naHuiNqqeTPqeJBsr0aUZI8l+7vZ5OXjLc8Qou4AOyNyJBBGFNhwsraxdpw==
 
 "@nextui-org/use-scroll-position@2.0.2":
   version "2.0.2"
