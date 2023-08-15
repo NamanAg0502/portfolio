@@ -24,7 +24,6 @@ import {
   DownloadIcon,
 } from '@/components/icons';
 
-import { Logo } from '@/components/icons';
 import { Button } from '@nextui-org/button';
 
 export const Navbar = () => {
@@ -33,8 +32,7 @@ export const Navbar = () => {
       <NavbarContent className="basis-1/5 sm:basis-full" justify="start">
         <NavbarBrand as="li" className="gap-3 max-w-fit">
           <NextLink className="flex justify-start items-center gap-1" href="/">
-            <Logo />
-            <p className="font-bold text-inherit">Naman.Ag</p>
+            <p className="text-lg">naman.@g</p>
           </NextLink>
         </NavbarBrand>
       </NavbarContent>

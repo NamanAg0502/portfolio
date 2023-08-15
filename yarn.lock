@@ -286,15 +286,30 @@
     "@react-aria/utils" "^3.19.0"
     "@react-types/shared" "^3.19.0"
 
-"@nextui-org/code@2.0.7":
-  version "2.0.7"
-  resolved "https://registry.yarnpkg.com/@nextui-org/code/-/code-2.0.7.tgz#eda55be8097181c864165f0c20bda01a63103e44"
-  integrity sha512-6pZpv5149KUq1+wCtzWUX7y7+iH+evFRNVLefDf9g18FWswH6iSrqT6YXPeKga6A4P2JntRg6ZF7GkPjsGa0Hw==
+"@nextui-org/chip@^2.0.11":
+  version "2.0.11"
+  resolved "https://registry.yarnpkg.com/@nextui-org/chip/-/chip-2.0.11.tgz#dc1bdc956730f4bdbc569a2904a0e7025fbec0dc"
+  integrity sha512-jD6FcKS9k8b7cFA3PoNmSLdeqXqHQz1qFJ63LTKhbwJ5jV/DWzwIbfPFKN8uEmHGdQmbGSp45qcyCQj6jAcKRQ==
   dependencies:
-    "@nextui-org/react-utils" "2.0.5"
+    "@nextui-org/react-utils" "2.0.6"
+    "@nextui-org/shared-icons" "2.0.2"
+    "@nextui-org/shared-utils" "2.0.2"
+    "@nextui-org/system" "2.0.5"
+    "@nextui-org/theme" "2.0.5"
+    "@react-aria/focus" "^3.14.0"
+    "@react-aria/interactions" "^3.17.0"
+    "@react-aria/utils" "^3.19.0"
+    "@react-types/checkbox" "^3.5.0"
+
+"@nextui-org/code@^2.0.9":
+  version "2.0.9"
+  resolved "https://registry.yarnpkg.com/@nextui-org/code/-/code-2.0.9.tgz#ef540a275dce7e0bf51c07fdef11258a63bc66f9"
+  integrity sha512-AO25ueB9hEpwdoL0njoSRKBxmu/5JED+HzV6SH/HhCKtJN0kMk6WpIHTNp2Rl69paa2H5wlt3dnwNQRXMs8Lqg==
+  dependencies:
+    "@nextui-org/react-utils" "2.0.6"
     "@nextui-org/shared-utils" "2.0.2"
     "@nextui-org/system-rsc" "2.0.3"
-    "@nextui-org/theme" "2.0.4"
+    "@nextui-org/theme" "2.0.5"
 
 "@nextui-org/divider@^2.0.10":
   version "2.0.10"
@@ -2690,6 +2705,11 @@ react-dom@18.2.0:
   dependencies:
     loose-envify "^1.1.0"
     scheduler "^0.23.0"
+
+react-fast-marquee@^1.6.0:
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/react-fast-marquee/-/react-fast-marquee-1.6.0.tgz#3749a9d0f522234e1e3ab776f105cd0accd76a4a"
+  integrity sha512-jtuwT9SNjrqxnE7lGZ8mTL1I8Q4+9G4aBta2p+y2Pa3SjR17QROblwrLICyM8rbjQFHgHawTHcaH9HvoVO2NOA==
 
 react-is@^16.13.1:
   version "16.13.1"

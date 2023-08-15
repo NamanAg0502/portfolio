@@ -6,50 +6,46 @@ import { button as buttonStyles } from '@nextui-org/theme';
 import { siteConfig } from '@/config/site';
 import { title, subtitle } from '@/components/primitives';
 import { GithubIcon } from '@/components/icons';
+import { Image } from '@nextui-org/image';
+import Experience from '@/components/experience';
+import { Spacer } from '@nextui-org/spacer';
+import Marquee from 'react-fast-marquee';
 
 export default function Home() {
   return (
-    // <section className="flex flex-col items-center justify-center gap-4 py-8 md:py-10">
-    // 	<div className="inline-block max-w-lg text-center justify-center">
-    // 		<h1 className={title()}>Make&nbsp;</h1>
-    // 		<h1 className={title({ color: "violet" })}>beautiful&nbsp;</h1>
-    // 		<br />
-    // 		<h1 className={title()}>
-    // 			websites regardless of your design experience.
-    // 		</h1>
-    // 		<h2 className={subtitle({ class: "mt-4" })}>
-    // 			Beautiful, fast and modern React UI library.
-    // 		</h2>
-    // 	</div>
-
-    // 	<div className="flex gap-3">
-    // 		<Link
-    // 			isExternal
-    // 			as={NextLink}
-    // 			href={siteConfig.links.docs}
-    // 			className={buttonStyles({ color: "primary", radius: "full", variant: "shadow" })}
-    // 		>
-    // 			Documentation
-    // 		</Link>
-    // 		<Link
-    // 			isExternal
-    // 			as={NextLink}
-    // 			className={buttonStyles({ variant: "bordered", radius: "full" })}
-    // 			href={siteConfig.links.github}
-    // 		>
-    // 			<GithubIcon size={20} />
-    // 			GitHub
-    // 		</Link>
-    // 	</div>
-
-    // 	<div className="mt-8">
-    // 		<Snippet hideSymbol hideCopyButton variant="flat">
-    // 			<span>
-    // 				Get started by editing <Code color="primary">app/page.tsx</Code>
-    // 			</span>
-    // 		</Snippet>
-    // 	</div>
-    // </section>
-    <div>New</div>
+    <div className="">
+      <div className="flex flex-col space-y-8 w-3/4">
+        <Image
+          isZoomed
+          width={150}
+          alt="NextUI Fruit Image with Zoom"
+          src="/images/profile.jpeg"
+        />
+        <div className="flex flex-col">
+          <h1 className={title()}>Naman Agrawal</h1>
+          <h3 className={subtitle()}>Full-stack Developer</h3>
+        </div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, cumque
+          ut sequi dolorum veniam culpa eligendi unde beatae quae mollitia autem
+          ea maxime pariatur! Inventore at ab corrupti error qui.
+        </p>
+        <div className="flex gap-4">
+          <Link isExternal>
+            <Code size="md">$ npm install @resume</Code>
+          </Link>
+          <Link isExternal href="malto:naman.agrawal.na05@gmail.com">
+            <Code size="md">$ sudo mail</Code>
+          </Link>
+        </div>
+      </div>
+      <Spacer y={24} />
+      {/* <Marquee>
+        {}
+      </Marquee> */}
+      <Spacer y={24} />
+      <Experience />
+      <Spacer y={24} />
+    </div>
   );
 }
