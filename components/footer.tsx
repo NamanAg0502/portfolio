@@ -32,8 +32,8 @@ const Footer = () => {
           ))}
         </ul>
         <p className="flex items-center text-sm">
-          @2023 | Built with <HeartFilledIcon color="#ED2B2A" size={20} /> by
-          Naman
+          Copywrite @2023 | Built with{' '}
+          <HeartFilledIcon color="#ED2B2A" size={20} /> by Naman
         </p>
       </div>
     </footer>
