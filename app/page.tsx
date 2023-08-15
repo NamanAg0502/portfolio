@@ -1,15 +1,12 @@
-import NextLink from 'next/link';
 import { Link } from '@nextui-org/link';
-import { Snippet } from '@nextui-org/snippet';
 import { Code } from '@nextui-org/code';
-import { button as buttonStyles } from '@nextui-org/theme';
-import { siteConfig } from '@/config/site';
 import { title, subtitle } from '@/components/primitives';
-import { GithubIcon } from '@/components/icons';
 import { Image } from '@nextui-org/image';
 import Experience from '@/components/experience';
 import { Spacer } from '@nextui-org/spacer';
 import Marquee from 'react-fast-marquee';
+import { skills } from '@/constants/data';
+import Education from '@/components/education';
 
 export default function Home() {
   return (
@@ -31,21 +28,38 @@ export default function Home() {
           ea maxime pariatur! Inventore at ab corrupti error qui.
         </p>
         <div className="flex gap-4">
-          <Link isExternal>
+          <Link isExternal href="/resume.pdf">
             <Code size="md">$ npm install @resume</Code>
           </Link>
-          <Link isExternal href="malto:naman.agrawal.na05@gmail.com">
+          <Link isExternal href="mailto:naman.agrawal.na05@gmail.com">
             <Code size="md">$ sudo mail</Code>
           </Link>
         </div>
       </div>
       <Spacer y={24} />
-      {/* <Marquee>
-        {}
-      </Marquee> */}
+      <Marquee speed={75}>
+        {skills.map((skill) => (
+          <div
+            key={skill.id}
+            className="flex justify-center items-center gap-2 mr-8"
+          >
+            <div className="bg-white rounded-2xl w-12 h-12 flex items-center justify-center">
+              <Image
+                src={skill.img}
+                alt={skill.name}
+                width={skill.id === 4 ? 18 : 40}
+                height={40}
+              />
+            </div>
+            <h1 className="text-lg font-semibold">{skill.name}</h1>
+          </div>
+        ))}
+      </Marquee>
       <Spacer y={24} />
       <Experience />
       <Spacer y={24} />
+      <Education />
+      <Spacer y={10} />
     </div>
   );
 }

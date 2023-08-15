@@ -74,25 +74,121 @@ export const experience = [
   {
     id: 2,
     company: 'Primeval Technologies Inc.',
-    title: 'Full Stack Developer',
+    title: 'Flutter Developer',
     location: 'Berlin, Germany',
     description:
       'Primeval Tech Inc. is a non-custodial DEX aims at reducing MEV using batch trades and RFQ to provide fair pricing to users.',
-    startDate: 'September 2022',
-    endDate: 'January 2023',
+    startDate: 'January 2023',
+    endDate: 'Present',
     img: '/images/primeval-logo.png',
-    link: 'https://www.qi.finance/',
-    label: 'qi.finance',
+    link: 'https://www.primeval.pro/',
+    label: 'primeval.pro',
     skills: [
-      'Next.js',
-      'React.js',
-      'Node.js',
-      'MongoDB',
-      'Web3.js',
-      'Solidity',
-      'Express',
-      'Framer',
-      'Tailwind',
+      'flutter',
+      'dart',
+      'firebase',
+      'mongodb',
+      'nodejs',
+      'express',
+      'tailwind',
     ],
+  },
+];
+
+export const skills = [
+  {
+    id: 1,
+    name: 'Next.js',
+    img: '/images/skills/nextjs.svg',
+  },
+  {
+    id: 2,
+    name: 'React.js',
+    img: '/images/skills/react.svg',
+  },
+  {
+    id: 3,
+    name: 'Node.js',
+    img: '/images/skills/nodejs.svg',
+  },
+  {
+    id: 4,
+    name: 'MongoDB',
+    img: '/images/skills/mongodb.svg',
+  },
+  {
+    id: 5,
+    name: 'Javascript',
+    img: '/images/skills/js.svg',
+  },
+  {
+    id: 6,
+    name: 'Express',
+    img: '/images/skills/express.svg',
+  },
+  {
+    id: 7,
+    name: 'Flutter',
+    img: '/images/skills/flutter.svg',
+  },
+  {
+    id: 8,
+    name: 'Tailwind',
+    img: '/images/skills/tailwind-css.svg',
+  },
+  {
+    id: 9,
+    name: 'C',
+    img: '/images/skills/c.svg',
+  },
+  {
+    id: 10,
+    name: 'C++',
+    img: '/images/skills/c++.svg',
+  },
+  {
+    id: 11,
+    name: 'CSS3',
+    img: '/images/skills/css3.svg',
+  },
+  {
+    id: 12,
+    name: 'HTML5',
+    img: '/images/skills/html5.svg',
+  },
+  {
+    id: 13,
+    name: 'Dart',
+    img: '/images/skills/dart.svg',
+  },
+  {
+    id: 14,
+    name: 'Figma',
+    img: '/images/skills/figma.svg',
+  },
+  {
+    id: 15,
+    name: 'Firebase',
+    img: '/images/skills/firebase.svg',
+  },
+  {
+    id: 16,
+    name: 'Git',
+    img: '/images/skills/git.svg',
+  },
+  {
+    id: 17,
+    name: 'Github',
+    img: '/images/skills/github.svg',
+  },
+  {
+    id: 18,
+    name: 'PostgreSQL',
+    img: '/images/skills/postgres.svg',
+  },
+  {
+    id: 19,
+    name: 'Python',
+    img: '/images/skills/python.svg',
   },
 ];

@@ -57,6 +57,9 @@ export const Navbar = () => {
           ))}
           <Button
             size="sm"
+            as={Link}
+            isExternal
+            href="/resume.pdf"
             endContent={<DownloadIcon size={16} className="text-default-500" />}
           >
             Resume
@@ -104,6 +107,7 @@ export const Navbar = () => {
             </NavbarItem>
           ))}
           <Button
+            href="/resume.pdf"
             endContent={<DownloadIcon size={16} className="text-default-500" />}
           >
             Resume
