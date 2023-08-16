@@ -7,6 +7,7 @@ import { Spacer } from '@nextui-org/spacer';
 import Marquee from 'react-fast-marquee';
 import { skills } from '@/constants/data';
 import Education from '@/components/education';
+import ProjectsSection from '@/components/project';
 
 export default function Home() {
   return (
@@ -57,6 +58,8 @@ export default function Home() {
       </Marquee>
       <Spacer y={24} />
       <Experience />
+      <Spacer y={24} />
+      <ProjectsSection />
       <Spacer y={24} />
       <Education />
       <Spacer y={10} />

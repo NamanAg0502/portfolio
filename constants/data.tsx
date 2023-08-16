@@ -9,7 +9,7 @@ export const projects = [
     label: 'sozo.finance',
   },
   {
-    id: 2,
+    id: 5,
     title: 'Qi Finance',
     description:
       'Qi Finance is a non-custodial DEX aims at reducing MEV using batch trades and RFQ to provide fair pricing to users.',
@@ -36,13 +36,22 @@ export const projects = [
     label: 'iitbhumun.com',
   },
   {
-    id: 5,
+    id: 2,
     title: 'Primeval Technologies Inc.',
     description:
       '<NAME> is a non-custodial DEX aims at reducing MEV using batch trades and RFQ to provide fair pricing to users.',
     img: '/images/primeval.png',
     link: 'https://www.primeval.pro/',
     label: 'primeval.pro',
+  },
+  {
+    id: 6,
+    title: 'TechJobs',
+    description:
+      'TechJobs is a non-custodial DEX aims at reducing MEV using batch trades and RFQ to provide fair pricing to users.',
+    img: '/images/techjobs.png',
+    link: 'https://www.techjobs.com/',
+    label: 'techjobs.com',
   },
 ];
 
