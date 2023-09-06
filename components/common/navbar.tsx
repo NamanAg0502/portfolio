@@ -15,14 +15,14 @@ import { siteConfig } from '@/config/site';
 import NextLink from 'next/link';
 import clsx from 'clsx';
 
-import { ThemeSwitch } from '@/components/theme-switch';
+import { ThemeSwitch } from '@/components/common/theme-switch';
 import {
   TwitterIcon,
   GithubIcon,
   DiscordIcon,
   LinkedinIcon,
   DownloadIcon,
-} from '@/components/icons';
+} from '@/components/common/icons';
 
 import { Button } from '@nextui-org/button';
 

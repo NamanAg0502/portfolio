@@ -1,5 +1,5 @@
 import { Card, CardFooter, CardHeader } from '@nextui-org/card';
-import { title } from './primitives';
+import { title } from './common/primitives';
 import { Image } from '@nextui-org/image';
 import { Divider } from '@nextui-org/divider';
 

@@ -2,14 +2,12 @@
 
 import React, { useRef, useState, useEffect } from 'react';
 import ExperienceCard from './experinceCard';
-import { title } from './primitives';
+import { title } from '../common/primitives';
 import { experience } from '@/constants/data';
 
 const Experience = () => {
   const [stickyTitle, setStickyTitle] = useState(false);
   const titleRef = useRef<HTMLHeadingElement | null>(null); // Initialize with null
-
-  console.log(stickyTitle);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -33,14 +31,19 @@ const Experience = () => {
 
   return (
     <section className="relative h-full">
-      <div className="grid grid-cols-3 justify-between gap-5 relative">
+      <div className="grid grid-cols-1 sm:grid-cols-3 justify-between gap-5 relative">
         <div className="h-full relative">
           <h1
             ref={titleRef}
-            className={`${stickyTitle ? 'sticky top-1/3' : ''} ${title()}`}
+            className={`hidden sm:block ${
+              stickyTitle ? 'sticky top-1/3' : ''
+            } ${title()}`}
           >
             Work Experience
           </h1>
+
+          {/* Mobile */}
+          <h1 className={title()}>Work Experience</h1>
         </div>
         <div className="flex flex-col col-span-2">
           {experience.map((experience) => (

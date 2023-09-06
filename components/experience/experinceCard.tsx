@@ -23,8 +23,10 @@ const ExperienceCard: React.FC<{ experience: Experience }> = ({
 }) => {
   return (
     <div className="relative h-full">
-      <div className="before:absolute before:left-5 before:top-0 before:w-[1px] before:h-full dark:before:bg-gray-700 before:bg-gray-300 before:flex before:flex-col before:items-center after:absolute after:left-3 after:top-5 after:rounded-full after:w-4 after:h-4 after:bg-neutral-600 after:dark:bg-neutral-400 after:z-10"></div>
-      <div className={`${experience.id !== 2 ? 'mb-24' : 'mb-0'} ml-16`}>
+      <div className="hidden sm:block before:absolute before:left-5 before:top-0 before:w-[1px] before:h-full dark:before:bg-gray-700 before:bg-gray-300 before:flex before:flex-col before:items-center after:absolute after:left-3 after:top-5 after:rounded-full after:w-4 after:h-4 after:bg-neutral-600 after:dark:bg-neutral-400 after:z-10"></div>
+      <div
+        className={`${experience.id !== 2 ? 'mb-8 sm:mb-24' : 'mb-0'} sm:ml-16`}
+      >
         <Card className="p-5">
           <CardHeader className="flex gap-4 items-start">
             <Image
