@@ -43,7 +43,7 @@ const Experience = () => {
           </h1>
 
           {/* Mobile */}
-          <h1 className={title()}>Work Experience</h1>
+          <h1 className={`${title()} sm:hidden block`}>Work Experience</h1>
         </div>
         <div className="flex flex-col col-span-2">
           {experience.map((experience) => (
