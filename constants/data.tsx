@@ -5,7 +5,7 @@ export const projects = [
     description:
       'Sozo is a non-custodial DEX aims at reducing MEV using batch trades and RFQ to provide fair pricing to users.',
     img: '/images/sozo.png',
-    link: 'https://www.sozo.finance/',
+    link: 'https://frontend-lidor.vercel.app/',
     label: 'sozo.finance',
   },
   {
@@ -14,7 +14,7 @@ export const projects = [
     description:
       'Qi Finance is a non-custodial DEX aims at reducing MEV using batch trades and RFQ to provide fair pricing to users.',
     img: '/images/qi.png',
-    link: 'https://www.qi.finance/',
+    link: 'https://sozo-psi.vercel.app',
     label: 'qi.finance',
   },
   {
@@ -66,7 +66,7 @@ export const experience = [
     startDate: 'September 2022',
     endDate: 'January 2023',
     img: '/images/sozo-logo.jpeg',
-    link: 'https://www.sozo.finance/',
+    link: 'https://frontend-lidor.vercel.app/',
     label: 'sozo.finance',
     skills: [
       'Next.js',
