@@ -32,7 +32,7 @@ export const projects = [
     description:
       'IITBHU MUN is a non-custodial DEX aims at reducing MEV using batch trades and RFQ to provide fair pricing to users.',
     img: '/images/iitbhu.png',
-    link: 'https://www.iitbhumun.com/',
+    link: 'https://iitbhumun-rouge.vercel.app',
     label: 'iitbhumun.com',
   },
   {
